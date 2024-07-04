@@ -5,7 +5,7 @@ import inquirer from "inquirer";
 import { generateBrand } from "./generateBrand.js";
 import { questions } from "./utils/questions.js";
 
-function cli() {
+export function cli() {
   program.version("1.0.0").description("Generate new brand");
 
   console.log(
@@ -22,5 +22,3 @@ function cli() {
 
   program.parse(process.argv);
 }
-
-module.exports = { cli };
