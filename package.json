@@ -1,16 +1,16 @@
 {
   "name": "@nexiux/nexgen-cli",
   "author": "JC GO",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
   },
   "description": "a cli that will generate a new nexiux brand",
-  "main": "bin/nexgen-cli.js",
+  "main": "bin/nexgen-cli",
   "bin": {
-    "nexgen-cli": "bin/nexgen-cli.js",
-    "@nexiux/nexgen-cli": "bin/nexgen-cli.js"
+    "nexgen-cli": "bin/nexgen-cli",
+    "@nexiux/nexgen-cli": "bin/nexgen-cli"
   },
   "keywords": [
     "cli",
