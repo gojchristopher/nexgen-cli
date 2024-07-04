@@ -1,4 +1,4 @@
-import { existingBrands } from "./get-all-brand-dirnames.mjs";
+import { existingBrands } from "./get-all-brand-dirnames.js";
 
 /**
  * @description Check if the input is numeric

@@ -3,21 +3,21 @@ import fs from "fs-extra";
 import ora from "ora";
 import path from "path";
 import { promisify } from "util";
-import { generateBrandConfig } from "./generateBrandConfig";
+import { generateBrandConfig } from "./generateBrandConfig.js";
 import {
   modifyGAinitFile,
   modifyGTM,
   modifyGa4file,
-} from "./modifyBrandScriptsFile";
-import { updateSiteMapConfig } from "./modifySiteMapConfigFile";
+} from "./modifyBrandScriptsFile.js";
+import { updateSiteMapConfig } from "./modifySiteMapConfigFile.js";
 import {
   appendBrandDirectoryType,
   appendBrandTitlesType,
   appendLowerCaseBrandTitlesType,
   appendSportsbookURLBrandTitlesType,
   appendSupportedAltenarWidgetBrands,
-} from "./modifyTypes";
-import { updateWorkspacejsonfile } from "./modifyWorkspaceFile";
+} from "./modifyTypes.js";
+import { updateWorkspacejsonfile } from "./modifyWorkspaceFile.js";
 
 const copyFile = promisify(fs.copy);
 const createDir = promisify(fs.mkdir);
