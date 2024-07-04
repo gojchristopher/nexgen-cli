@@ -7,10 +7,10 @@
     "access": "public"
   },
   "description": "a cli that will generate a new nexiux brand",
-  "main": "bin/nexgen-cli",
+  "main": "index.js",
   "bin": {
-    "nexgen-cli": "bin/nexgen-cli",
-    "@nexiux/nexgen-cli": "bin/nexgen-cli"
+    "nexgen-cli": "./index.js",
+    "@nexiux/nexgen-cli": "./index.js"
   },
   "keywords": [
     "cli",
